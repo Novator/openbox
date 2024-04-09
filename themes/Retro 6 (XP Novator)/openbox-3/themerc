@@ -1,0 +1,120 @@
+# Windows XP Luna Style
+# Made by  Anna Schröder, ananymania@gmail.com
+# Font size: 10px 
+# Button order: NLIMC
+#=========================================
+
+!! Window Layout:
+border.width: 1
+padding.height: 2
+padding.width: 2
+close.button.percent: 150
+*.client.padding.height: 2
+*.client.padding.width: 2
+*.handle.width:0
+*.label.text.justify: Left
+*.label.text.font: shadow=y:shadowtint=0:shadowoffset=-7
+*.title.separator.width: 0
+*.label.bg: ParentRelative
+
+*.title.bg: Gradient Splitvertical Flat
+#*.inactive.title.bg: Solid Flat
+
+#=========================================
+
+!! Window Colors:
+*.border.color: #3260FF
+*.active.label.text.color: White
+*.title.bg.color.splitTo: #329EFF
+*.title.bg.color: #0053DE
+*.title.bg.colorTo: #0053DE
+*.title.bg.colorTo.splitTo: #127EFE
+*.separator.color: #3280FF
+*.client.color: #4260FF
+
+*.inactive.border.color: #81A7E9
+*.inactive.*.image.color: ParentRelative
+#*.inactive.border.color: Gray
+*.inactive.title.bg.color.splitTo: #98B2E8
+*.inactive.title.bg.color: #7A95E0
+*.inactive.title.bg.colorTo:#7A95E0
+*.inactive.title.bg.colorTo.splitTo: #81A7E9
+*.inactive.*.separator.color: #81A7E9
+*.inactive.client.color: #81A7E9
+*.inactive.label.text.color: LightGray
+
+#=========================================
+
+!! Button Layout:
+
+*.button.*.bg: Gradient Diagonal Flat Border
+*.button.*.hover.*.bg: Gradient ParentRelative Flat Border
+*.button.*.close.*.hover.*.bg: Gradient Flat Border
+
+*.inactive.button.*.bg: Flat ParentRelative
+
+#=========================================
+
+!! Button Colors:
+*.button.*.image.color: White
+*.button.*.border.color: #DDEBEB
+*.button.*.bg.color.splitTo: #D6DAE5
+*.button.*.bg.color: #92B4F9
+*.button.*.bg.colorTo: #1234E8
+*.button.*.bg.colorTo.splitTo: dimgray
+*.button.*.hover.image.*.color: LightBlue
+*.button.*.hover.bg.colorTo: SteelBlue
+*.button.*.hover.bg.colorTo.SplitTo: Cyan
+*.button.*.pressed.*.image.color: LightBlue
+*.button.*.pressed.bg.color: #104562
+*.button.*.pressed.bg.colorTo: SteelBlue
+
+*.button.*.close.*.bg.color.SplitTo: #FCAA99
+*.button.*.close.*.bg.color: #F3A291
+*.button.*.close.*.bg.colorTo: #D93615
+*.button.*.close.hover.bg.color: Firebrick
+*.button.*.close.hover.bg.colorTo: #D3481D
+*.button.*.close.hover.bg.colorTo.SplitTo: #FFFF80
+*.button.*.close.*.pressed.bg.color: #751705
+*.button.*.close.*.pressed.bg.colorTo: #D22302
+*.button.*.close.*.pressed.bg.colorTo.SplitTo: #FFFF80
+
+*.button.*.disabled.bg.color.splitTo: Gainsboro
+*.button.*.disabled.bg.color: Gray
+*.button.*.disabled.bg.colorTo: DarkGray
+
+*.inactive.*.image.color: ParentRelative
+*.inactive.button.*.image.color: #7B96E1
+
+#=========================================
+
+!! Menu section:
+menu.overlap.x: 4
+menu.overlap.y: -2
+menu.*.font: shadow=y:shadowtint=0:shadowoffset=-5
+menu.title.text.justify: center
+menu.separator.width: 1
+menu.border.width: 1
+menu.items.bg: Solid Raised
+menu.title.bg: gradient vertical raised
+menu.*.title.*.Color: #0E60CB
+menu.*.ColorTo: #4792EC
+menu.*.title.*.text.Color: white
+menu.*.active.bg: Flat Solid
+menu.*.bg.color: #DFEBFA
+menu.*.text.color: DimGray
+menu.*.image.color: #30EA30
+menu.*.active.bg.color: #1665CB
+menu.*.active.text.color: White
+menu.*.disabled.text.color: Gray
+menu.separator.color: Orange
+
+#=========================================
+
+!! Dialog section:
+osd.border.width: 1
+osd.bg : Flat
+osd.*.button.*.bg: Raised
+osd.*.bg.color : LightGray
+osd.border.color : Black
+osd.*.text.color : Black

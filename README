@@ -1,23 +1,46 @@
-Openbox
-Copyright (C) 2004  Mikael Magnusson
-Copyright (C) 2002  Dana Jansens
 
-----
 
-    This software is OSI Certified Open Source Software.
-    OSI Certified is a certification mark of the Open Source Initiative.
+This is improved Openbox with big (enlarged) close button.
+Also added two example themes: "Onyx-Retro" and "Retro 6 (XP Novator)".
 
-----
+Now you can enlarge close button through theme setup file, for example:
 
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 2 of the License, or
-    (at your option) any later version.
+  /usr/share/themes/Onyx-Retro/openbox-3/themerc
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+and parameter "close.button.percent", for example value:
 
-    See the COPYING file for a copy of the GNU General Public License.
+  close.button.percent: 150
+
+means 150% from base button size. Title of windows now looks like this:
+
+  [_][u][ x ]
+
+
+
+HOW TO COMPILE AND USE
+
+1. Download source using git:
+
+  git clone --depth=1 https://github.com/Novator/openbox
+
+2. Enter to "openbox" directory and execute four commands:
+
+  ./bootstrap
+  ./configure --prefix=/usr
+  make
+  make install (with root user)
+
+3. You need to restart openbox to gain effect (with usual user):
+
+  openbox --restart
+
+4. Use "obconf" utility to choose a big button theme.
+If you changed your current theme reswitch the theme to another
+and switch it back.
+
+
+  Openbox
+  Copyright (C) 2004  Mikael Magnusson
+  Copyright (C) 2002  Dana Jansens
+  Copyright (C) 2024  Michael Galyuk
 

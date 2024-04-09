@@ -1,0 +1,123 @@
+!! Onyxx / Onyx remix by tyrry / Onyx by Dana Jansens
+
+!! Menu background
+menu.items.bg: flat gradient vertical
+menu.items.bg.color: #303030
+menu.items.bg.colorTo: #303030
+
+!! Menu text
+menu.items.text.color: #b8b8b8
+menu.items.justify: left
+menu.items.disabled.text.color: #606060
+
+!! Menu headers
+menu.title.bg: flat gradient vertical
+menu.title.bg.color: #282828
+menu.title.bg.colorTo: #292929
+menu.title.text.color: white
+menu.title.text.justify: center
+
+!! Selected menu item
+menu.items.active.bg: flat
+menu.items.active.bg.color: #4F7FBC
+menu.items.active.text.color: #f8f8f8
+
+!! Titlebar
+window.active.title.bg: flat splitvertical gradient
+window.active.title.bg.color: #414141
+window.active.title.bg.colorTo: #202020
+window.inactive.title.bg: gradient splitvertical gradient flat
+window.inactive.title.bg.color: #414141
+window.inactive.title.bg.colorTo: #202020
+
+!! Titlebar text
+window.label.text.justify: center
+window.active.label.bg: parentrelative
+window.active.label.text.color: #f8f8f8
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #747474
+
+!! Window buttons
+*.label.text.font: shadow=y:shadowtint=0:shadowoffset=-7
+
+!! Button Layout:
+
+*.button.*.bg: raised splitvertical gradient
+*.button.*.pressed.bg: sunken splitvertical gradient
+*.button.*.hover.*.bg: raised splitvertical gradient
+*.button.*.close.*.hover.*.bg: raised splitvertical gradient
+
+*.inactive.button.*.bg: raised splitvertical gradient 
+
+!! Button Colors:
+
+*.button.*.image.color: #ffffff
+*.button.*.border.color: #222222
+
+!! *.button.*.bg.color: #8FB9E9
+!! *.button.*.bg.colorTo: #5586C4
+*.button.*.bg.color: #445566
+*.button.*.bg.colorTo: #334455
+
+*.button.*.hover.bg.color: #85CCFF
+*.button.*.hover.bg.colorTo: #368CDF
+*.button.*.pressed.*.image.color: #333333
+*.button.*.pressed.bg.color: #698EBD
+*.button.*.pressed.bg.colorTo: #3C6DAB
+
+*.button.*.disabled.bg.color: #323B43
+*.button.*.disabled.bg.colorTo: #272E3A
+
+*.inactive.*.image.color: ParentRelative 
+*.inactive.button.*.image.color: #696969
+
+*.inactive.button.*.bg.color: #323B43
+*.inactive.button.*.bg.colorTo: #272E3A
+
+*.inactive.button.*.close.*.bg.color: #41302C
+*.inactive.button.*.close.*.bg.colorTo: #352523
+
+!! *.button.*.close.*.bg.color: #DF846E
+!! *.button.*.close.*.bg.colorTo: #B0422C
+*.button.*.close.*.bg.color: #CC6644
+*.button.*.close.*.bg.colorTo: #AA5533
+
+*.button.*.close.hover.bg.color: #FF8A5C
+*.button.*.close.hover.bg.colorTo: #EA3817
+*.button.*.close.*.pressed.bg.color: #98412F
+*.button.*.close.*.pressed.bg.colorTo: #672A1E
+
+!! Borders
+window.active.border.color: #588BCB
+window.inactive.border.color: #000000
+window.inactive.title.separator.color: #222222
+window.active.title.separator.color: #222222
+border.width: 0
+padding.width: 5
+padding.height: 0
+close.button.percent: 150
+window.handle.width: 0
+window.active.client.color:  #222222
+window.inactive.client.color:  #222222
+window.client.padding.width: 3
+window.client.padding.height: 3
+menu.overlap: 0
+*.title.separator.width: 0
+
+!! Font shadows
+menu.items.font:shadow=y:shadowtint=30
+
+!! On-screen displays  OSD
+osd.border.width: 1
+osd.border.color: #111
+osd.bg: gradient vertical raised
+osd.bg.color: #373737
+osd.bg.colorTo: #2d2d2d
+
+
+osd.hilight.bg: flat gradient vertical
+osd.hilight.bg.color: #609AE4
+osd.hilight.bg.colorTo: #4F7FBC
+osd.unhilight.bg: flat gradient vertical
+osd.unhilight.bg.color: #303030
+osd.unhilight.bg.colorTo: #202020
