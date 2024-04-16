@@ -40,6 +40,7 @@ window.inactive.label.text.color: #747474
 !! Window buttons
 *.label.text.font: shadow=y:shadowtint=0:shadowoffset=-7
 
+
 !! Button Layout:
 
 *.button.*.bg: raised splitvertical gradient
@@ -49,18 +50,21 @@ window.inactive.label.text.color: #747474
 
 *.inactive.button.*.bg: raised splitvertical gradient 
 
+
 !! Button Colors:
 
 *.button.*.image.color: #ffffff
 *.button.*.border.color: #222222
 
-!! *.button.*.bg.color: #8FB9E9
-!! *.button.*.bg.colorTo: #5586C4
 *.button.*.bg.color: #445566
 *.button.*.bg.colorTo: #334455
 
-*.button.*.hover.bg.color: #85CCFF
-*.button.*.hover.bg.colorTo: #368CDF
+*.button.*.toggled.*.bg.color:  #445588
+*.button.*.toggled.*.bg.colorTo: #334477
+
+
+*.button.*.hover.*.bg.color: #85CCFF
+*.button.*.hover.*.bg.colorTo: #368CDF
 *.button.*.pressed.*.image.color: #333333
 *.button.*.pressed.bg.color: #698EBD
 *.button.*.pressed.bg.colorTo: #3C6DAB
@@ -77,13 +81,10 @@ window.inactive.label.text.color: #747474
 *.inactive.button.*.close.*.bg.color: #41302C
 *.inactive.button.*.close.*.bg.colorTo: #352523
 
-!! *.button.*.close.*.bg.color: #DF846E
-!! *.button.*.close.*.bg.colorTo: #B0422C
-*.button.*.close.*.bg.color: #CC6644
-*.button.*.close.*.bg.colorTo: #AA5533
-
-*.button.*.close.hover.bg.color: #FF8A5C
-*.button.*.close.hover.bg.colorTo: #EA3817
+*.button.*.close.*.bg.color: #AA5533
+*.button.*.close.*.bg.colorTo: #884422
+*.button.*.close.hover.bg.color: #EE7744
+*.button.*.close.hover.bg.colorTo: #C54433
 *.button.*.close.*.pressed.bg.color: #98412F
 *.button.*.close.*.pressed.bg.colorTo: #672A1E
 
@@ -95,7 +96,7 @@ window.active.title.separator.color: #222222
 border.width: 0
 padding.width: 5
 padding.height: 0
-close.button.percent: 150
+close.button.percent: 155
 window.handle.width: 0
 window.active.client.color:  #222222
 window.inactive.client.color:  #222222
