@@ -3,15 +3,15 @@
 This is improved Openbox with big (enlarged) close button.
 Also added two example themes: "Onyx-Retro" and "Retro 6 (XP Novator)".
 
-Now you can enlarge close button through theme setup file, for example:
+Now you can increase the close button with editing a theme setup file, for example:
 
   /usr/share/themes/Onyx-Retro/openbox-3/themerc
 
-and parameter "close.button.percent", for example value:
+and adding parameter "close.button.percent", example value:
 
   close.button.percent: 150
 
-means 150% from base button size. Title of windows now looks like this:
+means 150% from base button size. A title of the window will look like this:
 
   [_][u][ x ]
 
@@ -35,7 +35,7 @@ HOW TO COMPILE AND USE
   openbox --restart
 
 4. Use "obconf" utility to choose a big button theme.
-If you changed your current theme reswitch the theme to another
+If you changed your current theme it's need to reswitch the theme to another
 and switch it back.
 
 
